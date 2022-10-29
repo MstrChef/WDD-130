@@ -180,3 +180,8 @@ nav a:hover {
 #hero-msg h4 {
   color: white;
 }
+#hero-box {
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: -1;
+}
