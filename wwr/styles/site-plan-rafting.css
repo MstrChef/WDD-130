@@ -59,11 +59,8 @@ header {
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
-<<<<<<< HEAD
   display: grid;
   grid-template-columns: 150px auto;
-=======
->>>>>>> 51bb40fc3189bd2bfe64042117f9e491c1565ba8
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -102,25 +99,14 @@ p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 51bb40fc3189bd2bfe64042117f9e491c1565ba8
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-<<<<<<< HEAD
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-=======
-}
-nav  {
-  list-style-type: none;
-  display: flex;
->>>>>>> 51bb40fc3189bd2bfe64042117f9e491c1565ba8
 }
 nav a {
   padding:1em;
