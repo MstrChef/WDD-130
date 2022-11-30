@@ -24,13 +24,28 @@
 #content {
     max-width: 1600px;
     margin: 0 auto;
+    
+}
+.logo{
+    width: 120px;
+}
+#logo_link {
+    padding-top: 10px;
+    padding-left: 8px;
+    justify-self: center;
+    align-self: center;
+}
+.home-grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; 
 }
 
 nav {
     background-color: black;
     color: white; 
-    padding: 25px 50px;
-    margin-top: 200px;
+    padding: 30px;
+    margin-top: -140px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -49,12 +64,21 @@ nav h3{
     text-decoration: none;
 }
 
+body{
+    background-color:#231123;
+}
+
+.msg{
+    grid-column: 2;
+    color:#FAF4D3;
+    padding: 30px; 
+}
 
 footer {
     background-color: black;
     color: var(--nav-link-color); 
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 300px;
     display: flex;
     justify-content: space-around;
     align-items: center;
