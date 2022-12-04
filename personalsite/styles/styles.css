@@ -96,7 +96,13 @@ footer h3{
     text-decoration: none;
 }
 
+#Throne1 {
+    size: 300px;
+}
 
+#Throne2 {
+    size: 50px;
+}
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
