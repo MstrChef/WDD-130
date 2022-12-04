@@ -10,7 +10,7 @@
 
 <body>
 <header>
-    <a id="logo_link" href="duality.html">
+    <a id="logo_link" href="index.html">
         <img class="logo" src="images/Logo.png" alt="Dungeons">
     </a>
     <nav style="font-size: 40px">
@@ -19,25 +19,32 @@
         <a href="throne.html">S.Throne</a>
         <a href="contact.html">Contact</a>
     </nav>
-</header>
+</header>   
 
-<main class="home-grid">
-    The main mechanic in Duality is the Bell. When you shoot the bell it will send you into the nightmare realm also called the red realm. When you shoot the bell from the red realm it will send you back into the normal world.
+<div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name / User Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="country">Platform</label>
+      <select id="country" name="country">
+        <option value="australia">Xbox</option>
+        <option value="canada">Playstation</option>
+        <option value="usa">PC</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+</div>
 
-    <img src="images/duality1.webp" alt="Boss1">
-    First Boss explanation
-
-    <img src="images/duality2.png" alt="Boss2">
-    Second Boss explanation
-
-    <img src="images/duality3.webp" alt="Boss3">
-    Third Boss explanation
-
-</main>
 <footer>
     <p>Destiny Dunegoneers &copy; 2022 - Stephen Meiling</p>
     <a href="site-plan.html">Site Plan</a>
 </footer>
 </body>
-
 </html>
